@@ -1,0 +1,45 @@
+.hero {
+   padding: 5.6vw;
+   background-image: url(../img/background.jpg);
+   background-size: cover;
+   height: 100vh;
+
+   &__img{
+      img{
+         max-width: 600px;
+         padding-bottom: 5.6vw;
+      }
+   }
+
+   &__synopsis{
+      color: #fff;
+      padding-bottom: 5.6vw;
+      max-width: 600px;
+      text-align: justify;
+   }
+   &__content {  
+      text-align: center;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 15px;
+      margin-left: 30%;
+      margin-right: 30%;
+      background: rgba(0,0,0,0.5);
+      span{
+         color: #d0d0d0;
+      }
+      button{  
+         background-color:#303030;
+         color:#fff;
+         padding: 20px;
+         margin-top: 12px;
+         border-radius: 6px;
+         border: none;
+         cursor: pointer;
+         transition: .5s;
+         &:hover{
+            background-color:#3c4a59 ;
+         }
+      }
+   }
+}

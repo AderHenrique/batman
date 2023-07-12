@@ -1,5 +1,17 @@
-$bgImage: blue;
+@use 'hero';
+@use 'shows';
+@use 'footer';
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   background-color: transparent;
+}
 
-body{
-   background-color: $bgImage;
+.link-text{
+   color: #fff;
+}
+.text_white{
+   color: #fff;
 }

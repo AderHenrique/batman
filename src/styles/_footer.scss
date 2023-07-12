@@ -1,0 +1,27 @@
+.footer{
+   padding: 30px;
+   background-color: #000;
+
+   &__container{
+      max-width: 1024px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+
+      &__links{
+         margin-bottom: 16px;
+         &__item{
+            display: inline-block;
+
+            a{
+               padding: 8px 16px;
+               transition: .5s;
+
+               &:hover{
+                  color: #d0d0d0;
+               }
+            }
+         }
+      }
+   }
+}
