@@ -27,6 +27,13 @@
       list-style: none;
       margin-top: 44px;
 
+      @media(max-width: 768px){
+         grid-template-columns: 1fr 1fr;
+      }
+      @media(max-width: 500px){
+         grid-template-columns: 1fr;
+      }
+
       &--is-active{
          display: grid;
       }
